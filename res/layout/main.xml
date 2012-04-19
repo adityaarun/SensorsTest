@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acc X : " />
+
+    <TextView
+        android:id="@+id/textView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acc Y : " />
+
+    <TextView
+        android:id="@+id/textView03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acc Z : " />
+
+    <TextView
+        android:id="@+id/textView04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rot X : " />
+
+    <TextView
+        android:id="@+id/textView05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rot Y : " />
+
+    <TextView
+        android:id="@+id/textView06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rot Z : " />
+
+    <TextView
+        android:id="@+id/Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app tests and shows the Accelerometer and Orientation Sensor Data"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
